@@ -1,5 +1,5 @@
 ﻿  lab1.cpp
-E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab1\lab1\lab1.cpp(20,20): warning C4018: <: несоответствие типов со знаком и без знака
-E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab1\lab1\lab1.cpp(67,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab1\lab1\lab1.cpp(76,21): warning C4018: <: несоответствие типов со знаком и без знака
-  lab1.vcxproj -> E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab1\Debug\lab1.exe
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab1\lab1\lab1.cpp(15,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab1\lab1\lab1.cpp(46,10): error C3861: numGenerator: идентификатор не найден
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab1\lab1\lab1.cpp(59,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab1\lab1\lab1.cpp(68,21): warning C4018: <: несоответствие типов со знаком и без знака

@@ -1,0 +1,5 @@
+﻿  lab2.cpp
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab2\lab2\lab2.cpp(30,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab2\lab2\lab2.cpp(204,23): warning C4018: <: несоответствие типов со знаком и без знака
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab2\lab2\lab2.cpp(210,23): warning C4018: <: несоответствие типов со знаком и без знака
+  lab2.vcxproj -> E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab2\Debug\lab2.exe
