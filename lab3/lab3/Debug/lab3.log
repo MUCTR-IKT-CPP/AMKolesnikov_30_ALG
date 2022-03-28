@@ -1,0 +1,10 @@
+﻿  lab3.cpp
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab3\lab3\lab3.cpp(205,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab3\lab3\lab3.cpp(361,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab3\lab3\lab3.cpp(163,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab3\lab3\lab3.cpp(153): message : во время компиляции функции-члена класс шаблон "void MyStack<int>::sorting(void)"
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab3\lab3\lab3.cpp(319): message : выполняется компиляция ссылки на экземпляр шаблон функции "void MyStack<int>::sorting(void)"
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab3\lab3\lab3.cpp(171): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "MyStack<int>"
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab3\lab3\lab3.cpp(126): warning C4715: MyStack<`test3'::`2'::Human>::top: значение возвращается не при всех путях выполнения
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab3\lab3\lab3.cpp(126): warning C4715: MyStack<int>::top: значение возвращается не при всех путях выполнения
+  lab3.vcxproj -> E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab3\Debug\lab3.exe
