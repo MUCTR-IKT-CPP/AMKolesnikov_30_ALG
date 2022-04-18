@@ -1,0 +1,4 @@
+﻿  lab5.cpp
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab5\lab5\lab5.cpp(73,16): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab5\lab5\lab5.cpp(148,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  lab5.vcxproj -> E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab5\Debug\lab5.exe

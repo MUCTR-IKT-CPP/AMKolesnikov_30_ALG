@@ -30,8 +30,6 @@ vector<vector<int>> GenerateGraphs(int min_vertex, int max_vertex, int min_edge,
 
 	cout << "\n\nЧисло вершин: " << vertex << endl;
 		
-	edges = numGenerator(min_edge, max_edge);
-
 	vector<vector<int>> graph(vertex, vector<int>(vertex));
 
 	for (int i = 0; i < edges; i++)
