@@ -350,12 +350,12 @@ public:
 
     void insert(int x)
     {
-        root = insert(x, root);
+        insert(x, root);
     }
 
     void remove(int x)
     {
-        root = remove(x, root);
+        remove(x, root);
     }
 
     void display()
@@ -365,7 +365,7 @@ public:
     }
 
     void search(int x) {
-        root = find(root, x);
+        find(root, x);
     }
 };
 
@@ -401,7 +401,7 @@ int main() {
     vector<vector<double>> time_remove_avl_sort(NUM_CYCLES, vector<double>(NUM_OPERATIONS));
 
 
-    ofstream tout("Time.txt");
+    ofstream tout("Time1.txt");
 
     if (tout.is_open()) {
 

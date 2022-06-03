@@ -255,6 +255,7 @@ public:
         root = find(root, x);
     }
 
+
     int max_deep() {
         return depth(root);
     }
@@ -273,7 +274,6 @@ private:
         int sz; // Размер поддерева (количество узлов, находящихся ниже данного)
         Node* l, * r; // Указатели на потомков данного узла
 
-        // Конструктор узла (объявлен в описании самой структуры для простоты)
         Node(int _x)
         {
             x = _x;
@@ -384,13 +384,13 @@ private:
 
     // --- Операции, проводимые с деревом
 
-    // Добавление нового элемента x в дерево t. Корень дерева может измениться!
+    // Добавление нового элемента x в дерево t
     Node* add(Node*& t, int x)
     {
         Node* t1, * t2;
         // Для добавления делаем следующее:
         // - Разрезаем исходное дерево по ключу x. В левом поддереве все элементы меньше x,
-        //   в правом - не меньше.
+        //   в правом - больше.
         split(t, x, t1, t2);
         // - Создаём новое дерево из одной вершины - собственно, x.
         Node* new_tree = new Node(x);
@@ -400,19 +400,19 @@ private:
         return t;
     }
 
-    // Удаление вершины из дерева. В данном случае работать будет только с целыми числами!
+    // Удаление вершины из дерева
     Node* remove(Node*& t, int x)
     {
         Node* t1, * t2, * t3, * t4;
         // Для удаления делаем следующее:
         // - Разрезаем исходное дерево по ключу x.
         split(t, x, t1, t2);
-        // - Разрезаем правое поддерево по ключу x + 1 (вот зачем нужны были целые числа!)
+        // - Разрезаем правое поддерево по ключу x + 1 
         split(t2, x + 1, t3, t4);
         // - Соединяем деревья t1 и t4, которые теперь не содержат ключа x
         //   (он остался в дереве t3)
         t = merge(t1, t4);
-        // - Очищаем память, занимаемую деревом t3 (если не хотим утечек)
+
         delete t3;
         return t;
     }
@@ -544,7 +544,7 @@ int main()
     vector<vector<double>> time_remove_treap_random(NUM_CYCLES, vector<double>(NUM_OPERATIONS));
     vector<vector<double>> time_remove_avl_random(NUM_CYCLES, vector<double>(NUM_OPERATIONS));
 
-    ofstream tout("Time.txt");
+    ofstream tout("Time1.txt");
 
     if (tout.is_open()) {
 
@@ -651,7 +651,7 @@ int main()
                 sum_time_search_all_cycles_treap_random += sum_time_search_treap_random[j];
                 sum_time_search_all_cycles_avl_random += sum_time_search_avl_random[j];
 
-                //УДАЛЕНИЕ
+                //УДАЛЕНИЕ                
 
                 for (int i = 0; i < NUM_OPERATIONS; i++)
                 {

@@ -1,0 +1,18 @@
+﻿  lab9.cpp
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab9\lab9\lab9.cpp(184,15): warning C4244: =: преобразование "uint64_t" в "uint8_t", возможна потеря данных
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab9\lab9\lab9.cpp(185,24): warning C4244: =: преобразование "uint64_t" в "uint8_t", возможна потеря данных
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab9\lab9\lab9.cpp(186,24): warning C4244: =: преобразование "uint64_t" в "uint8_t", возможна потеря данных
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab9\lab9\lab9.cpp(187,24): warning C4244: =: преобразование "uint64_t" в "uint8_t", возможна потеря данных
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab9\lab9\lab9.cpp(188,24): warning C4244: =: преобразование "uint64_t" в "uint8_t", возможна потеря данных
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab9\lab9\lab9.cpp(189,24): warning C4244: =: преобразование "uint64_t" в "uint8_t", возможна потеря данных
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab9\lab9\lab9.cpp(190,24): warning C4244: =: преобразование "uint64_t" в "uint8_t", возможна потеря данных
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab9\lab9\lab9.cpp(232,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab9\lab9\lab9.cpp(287,10): warning C4244: инициализация: преобразование "double" в "long", возможна потеря данных
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab9\lab9\lab9.cpp(307,21): warning C4018: <: несоответствие типов со знаком и без знака
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab9\lab9\lab9.cpp(308,26): warning C4018: <: несоответствие типов со знаком и без знака
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab9\lab9\lab9.cpp(328,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab9\lab9\lab9.cpp(371,10): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab9\lab9\lab9.cpp(378,21): warning C4018: <: несоответствие типов со знаком и без знака
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab9\lab9\lab9.cpp(410,20): warning C4018: <: несоответствие типов со знаком и без знака
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab9\lab9\lab9.cpp(414,21): warning C4018: <: несоответствие типов со знаком и без знака
+  lab9.vcxproj -> E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab9\Debug\lab9.exe

@@ -1,4 +1,4 @@
 ﻿  lab7.cpp
-E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab7\lab7\lab7.cpp(529,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab7\lab7\lab7.cpp(603,24): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab7\lab7\lab7.cpp(530,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab7\lab7\lab7.cpp(554,24): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
   lab7.vcxproj -> E:\3kurs\2 sem\AMKolesnikov_30_ALG\lab7\Debug\lab7.exe
